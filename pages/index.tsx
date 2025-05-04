@@ -1,8 +1,9 @@
 import Canvas from "@/components/Canvas";
-
+import KofiWidget from "@/components/Kofi";
 export default function Home() {
   return (
     <div className="relative w-full h-screen overflow-hidden flex flex-col items-center">
+      <KofiWidget />
       <Canvas />
       <div className="top-56 text-center z-10 bg-black/75 w-[1280px]">
         <h1 className="text-4xl font-bold">
